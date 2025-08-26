@@ -1,1 +1,11 @@
 IntuneWin generation: IntuneWinAppUtil.exe -c "C:\Github\M365Apps\M365AppsWin32App" -s "C:\Github\M365Apps\M365AppsWin32App\InstallM365Apps.ps1" -o "C:\ADTDeployments\Intune" -q
+
+Install Command:
+powershell.exe -executionpolicy bypass -file InstallM365Apps.ps1 -XMLURL "configuration.xml"
+
+Uninstall Command:
+powershell.exe -executionpolicy bypass -file InstallM365Apps.ps1 (Not working yet)
+
+Install behaviour: System
+Requirements (probable 64 bit Windows something)
+Detection: Use PowerShell detection Script M365AppsWin32DetectionScript.ps1
