@@ -1,0 +1,1 @@
+IntuneWin generation: IntuneWinAppUtil.exe -c "C:\Github\M365Apps\M365AppsWin32App" -s "C:\Github\M365Apps\M365AppsWin32App\InstallM365Apps.ps1" -o "C:\ADTDeployments\Intune" -q
